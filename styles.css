@@ -4,7 +4,7 @@
 .square {
   width: 100px;
   height: 100px;
-  background-color: cornflowerblue;
+  background-color: coral;
   position: absolute;
   animation: move 4s;
   animation-iteration-count: infinite;
@@ -13,7 +13,7 @@
 @keyframes move {
   0% {
     left: 0;
-    background-color: cornflowerblue;
+    background-color: coral;
   }
   25% {
     left: 300px;
@@ -33,6 +33,5 @@
   100% {
     left: 0px;
     top: 0px;
-    background-color: cornflowerblue;
   }
 }
